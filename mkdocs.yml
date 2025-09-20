@@ -1,0 +1,74 @@
+site_name: Absenteeism ETL Documentation
+site_description: Documentação do projeto ETL para dados de absenteísmo
+site_author: Jonhnatta
+site_url: https://absenteeism-etl-pipeline.github.io/absenteeism-etl-pipeline
+
+# Repositório
+repo_name: estrutura-de-projeto
+repo_url: https://github.com/jonhnatta/absenteeism-etl-pipeline
+
+# Tema
+theme:
+  name: material
+  palette:
+    # Modo claro
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    # Modo escuro
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+# Navegação
+nav:
+  - Home: index.md
+  - Módulos:
+      - Main: modules/main.md
+      - ETL: modules/etl.md
+  - API Reference:
+      - Main Module: api/main.md
+      - ETL Absenteeism: api/etl_absenteeism.md
+  - Testes: tests.md
+
+# Plugins
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: true
+            show_root_heading: true
+            show_root_toc_entry: false
+            show_signature_annotations: true
+            show_symbol_type_heading: true
+            signature_crossrefs: true
+
+# Extensões do Markdown
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
