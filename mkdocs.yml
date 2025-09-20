@@ -1,7 +1,7 @@
 site_name: Absenteeism ETL Documentation
 site_description: Documentação do projeto ETL para dados de absenteísmo
 site_author: Jonhnatta
-site_url: https://absenteeism-etl-pipeline.github.io/absenteeism-etl-pipeline
+site_url: https://jonhnatta.github.io/absenteeism-etl-pipeline
 
 # Repositório
 repo_name: estrutura-de-projeto
