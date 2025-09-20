@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://jonhnatta.github.io/absenteeism-etl-pipeline/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://jonhnatta.github.io/absenteeism-etl-pipeline/tests/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://jonhnatta.github.io/absenteeism-etl-pipeline/api/etl_absenteeism/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://jonhnatta.github.io/absenteeism-etl-pipeline/api/main/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://jonhnatta.github.io/absenteeism-etl-pipeline/modules/etl/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://jonhnatta.github.io/absenteeism-etl-pipeline/modules/main/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+</urlset>
