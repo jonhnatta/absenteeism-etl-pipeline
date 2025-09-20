@@ -51,12 +51,14 @@ estrutura-de-projeto/
 ## Instalação
 
 1. **Clone o repositório:**
+
 ```bash
-git clone <url-do-repositorio>
-cd estrutura-de-projeto
+git clone https://github.com/jonhnatta/absenteeism-etl-pipeline
+cd absenteeism-etl-pipeline
 ```
 
 2. **Instale as dependências:**
+
 ```bash
 uv sync
 ```
